@@ -110,3 +110,11 @@ As a selfhoster, you and your configured bot admins have access to additional ad
 ```
 ;;commands admin
 ```
+
+## Note for developers running Windows
+Since windows does not support the current setup of the configuration files, there is an extra step that you need to take before you're able to modify the code.
+```
+cd .\src\
+mv .\common.yml ..\
+mv .\fredboat.yml ..\
+```
