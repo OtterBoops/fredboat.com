@@ -4,18 +4,21 @@
 $colorActive: white
 
 .Footer
+    min-height: $footerHeight
+    background-image: url("/bg/asfalt.png")
+    font-family: Lato, sans-serif
+
+.footer-columns
     display: flex
     justify-content: center
-    height: $footerHeight
-    background-image: url("/bg/asfalt.png")
-    @media screen and (max-width: $breakSmall)
-        display: none
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
 
 .footer-column
     width: 150px
     margin: 0 25px 0 25px
     padding-top: 24px
-    font-family: Lato, sans-serif
 
     p
         margin: 0 0 10px 0
@@ -34,6 +37,15 @@ $colorActive: white
     .current
         color: $colorActive
         font-weight: bolder
+
+.copyright-statement
+    display: block
+    color: #aeaeae
+    text-align: center
+    padding-bottom: 16px
+    margin-bottom: 0
+    a
+        color: $colorActive
 
 .Markdown > div > .Footer
     filter: brightness(1.5)
