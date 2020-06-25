@@ -106,25 +106,6 @@ class Index extends Component {
                                                     )}/>
                         </div>
                     </div>
-
-                    <div className="feature-section">
-                        <div className="feature-section-inner">
-
-                            <FeatureDescription title="Completely open source"
-                                                text="Since development began, FredBoat has always been open source! This means that FredBoat is shaped by the community, and advanced users can even host their own FredBoat."
-                                                under={
-                                                    (
-                                                        <div>
-                                                            <FaButton to="https://github.com/Frederikam/FredBoat"
-                                                                      text="View the source code" icon="github"
-                                                                      color="#3399ff"/>
-                                                        </div>
-                                                    )}/>
-                            <div className="feature-deco">
-                                <FontAwesome name="github" style={{fontSize: "10em"}}/>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <Footer/>
             </div>

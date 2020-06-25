@@ -3,14 +3,14 @@ FredBoat is a free Discord music bot that delivers high-quality music to your Di
 
 
 ## Setting up the bot
-FredBoat is made to be super simple to use! Getting FredBoat running on your server is easy. You can invite FredBoat by authenticating it with your account using [this](https://goo.gl/cFs5M9) link. Bear in mind that you must have `Manage Server` permissions to be able to do this.
+FredBoat is super simple to use! Getting FredBoat running on your server is easy. You can invite FredBoat by authenticating it with your account using [this](https://goo.gl/cFs5M9) link. Bear in mind that you must have `Manage Server` permissions to be able to do this.
 
 # Music Commands
 
 | Command                    | Description                                                           | Example usage & aliases                     |
 |----------------------------|-----------------------------------------------------------------------|---------------------------------------------|
 | ;;play ***url***           | Play music from the given URL. See supported sources below.           | ;;p https://www.youtube.com/watch?v=dQw4w9WgXcQ |
-| ;;play ***words***         | Search for a track on youtube and soundcloud.                         | ;;p Never Gonna Give You Up                 |
+| ;;play ***words***         | Search for a track on YouTube and Soundcloud.                         | ;;p Never Gonna Give You Up                 |
 | ;;queue                    | Display the queue of the current tracks in the playlist.              | ;;q                                         |
 | ;;nowplaying               | Display the currently playing track.                                  | ;;np                                        |
 | ;;skip                     | Remove the currently playing track from the queue. `;;help skip` to learn how to skip more than one track | ;;s     |
@@ -28,7 +28,7 @@ FredBoat is made to be super simple to use! Getting FredBoat running on your ser
 | ;;seek ***time***          | Set the position of the track to the given time.                      | ;;seek 2:45:00                              |
 | ;;restart                  | Restart the currently playing track.                                  | ;;restart                                   |
 | ;;history                  | Show history of recently played tracks.                               | ;;h                                         |
-| ;;export                   | Export the current queue to hastebin.                                 | ;;ex                                        |
+| ;;export                   | Export the current queue to Hastebin.                                 | ;;ex                                        |
 | ;;volume                   | Set the volume ([FredBoatPatron](/docs/donate) only).                 | ;;vol 150                                   |
 | ;;help ***command***       | Show advanced usage of a command                                      | ;;help skip                                 |
 
@@ -72,12 +72,6 @@ You can then choose your track with `;;play <number>`, or just do`;;1` to select
 
 * Spotify playlists (loaded through YouTube & SoundCloud, [FredBoatPatron](/docs/donate) only)
 
-~~Direct links to files, including streams. Not all formats supported.~~¹
-
-~~URLs pointing to .m3u and .pls can be used to start streams.~~¹
-
-¹**Due to threats of (D)DoS attacks we have disabled files served over HTTP(S).**
-
 Let us know if you want other sites supported.
 
 ## Join FredBoat Hangout!
@@ -86,15 +80,10 @@ We invite everyone to join FredBoat hangout, which is a place to discuss suggest
 ## Support
 Before you do anything, please [read our FAQ](https://fredboat.com/docs/faq).
 
-You can join either our [Discord server](https://discord.gg/cgPFW4q) or tweet us at [@DiscordFredBoat](https://twitter.com/DiscordFredBoat).
-
-## Legal
-By using any of my hosted (but not selfhosted) bots you are subject to our (very minimal!) [terms of service](https://fredboat.com/docs/terms).
-
-Effective as of 25th Apr 2017.
+You can join either our [Discord server](https://discord.gg/cgPFW4q).
 
 ## Credits
-FredBoat is developed by Fre_d (aka Frederikam) with the help of contributors on GitHub.
+FredBoat is originally developed by Fre_d (aka Frederikam) with the help of contributors on GitHub.
 
 Special thanks to EJ Technologies for providing us with open source licenses for their [Java profiler](https://www.ej-technologies.com/products/jprofiler/overview.html).
 
