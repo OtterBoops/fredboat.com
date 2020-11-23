@@ -50,8 +50,7 @@ class Toc extends Component {
                     <div className="toc-separator"/>
                     <h2>Advanced</h2>
 
-                    <TocHeader activePage={this.props.page} page="selfhosting" name="Selfhosting"/>
-                    <TocHeader activePage={this.props.page} page="systemdservice" name="Selfhosting (systemd)"/>
+                    <TocHeader activePage={this.props.page} page="selfhosting_ukulele" name="Selfhosting"/>
                 </div>
 
                 <div id="ad-sidebar"/>
